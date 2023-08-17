@@ -239,18 +239,7 @@ if __name__ == "__main__":
     rec.add_phone('+380 96 331-32-21')
     ab.add_record(rec)
 
-    # print(ab['Bill'])
-    # assert isinstance(ab['Bill'], Record)
-    # assert isinstance(ab['Bill'].name, Name)
-    # assert isinstance(ab['Bill'].phones, list)
-    # assert isinstance(ab['Bill'].phones[0], Phone)
-    # assert ab['Bill'].phones[0].value == '+380 96 345-54-76'
-    # print('All Ok)')
-    # print("-"*50)
 
-    # for phone in map(lambda x: x.value, ab['Bill'].phones[:]):
-    #     print(phone)
-    # print(ab['Bill'].birthday.value)
     ab.how_many_to_show(3)
     for i in ab:
         if i == []:
